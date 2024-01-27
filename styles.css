@@ -1,0 +1,131 @@
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--color-white);
+    background-position: center;
+}
+
+
+
+
+label {
+    margin-bottom: 0.5em;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+
+.header {
+    padding: 25px
+}
+
+
+h1 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
+.text-center {
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+
+
+.description {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+#survey-form {
+    background-color: var(--color-darkblue-alpha);
+    padding: 1em 3.3rem;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
+.form-elements {
+    margin-bottom: 1.5em;
+}
+
+
+input,
+select {
+    width: 100%;
+    font-size: 16px;
+}
+
+
+.input,
+select,
+textarea {
+    border: 3px solid var(--color-white);
+    padding: 0.5em;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.one-line {
+    display: block;
+}
+
+input[type="radio"] {
+    width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: middle;
+    border: 7px solid var(--color-white);
+}
+
+p[class="recommend"] {
+    margin-bottom: 0.7em;
+}
+
+
+.improved {
+    width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: middle;
+    border: 7px solid var(--color-white);
+}
+
+.comment {
+    width: 100%;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    height: 2.6rem;
+    background-color: #37af65;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
